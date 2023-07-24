@@ -1,0 +1,144 @@
+body {
+  background-color: gray;
+  font-size: 24px;
+}
+.container {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+
+  height: 100%;
+}
+.white-strip-a {
+  border: 1px solid black;
+  border-radius: 3%;
+  width: 100%;
+  height: 60px;
+  background-color: #ffffff;
+  position: absolute;
+
+  z-index: 2;
+  color: white;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.black-strip-1 {
+  border: 1px solid #000;
+  height: 40px;
+  border-radius: 10%;
+  background-color: #000;
+  width: 50%;
+  position: relative;
+  margin-top: 40px;
+  z-index: 3;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.white-strip-b {
+  border: 1px solid black;
+  border-radius: 3%;
+  width: 100%;
+  height: 60px;
+  background-color: #ffffff;
+  position: absolute;
+  margin-top: 60px;
+  z-index: 2;
+  color: white;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.black-strip-2 {
+  border: 1px solid #000;
+  height: 40px;
+  border-radius: 10%;
+  background-color: #000;
+  margin-top: 20px;
+  width: 50%;
+  position: relative;
+  z-index: 3;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.white-strip-c {
+  border: 1px solid black;
+  border-radius: 3%;
+  width: 100%;
+  height: 60px;
+  background-color: #ffffff;
+  position: absolute;
+  margin-top: 120px;
+  z-index: 2;
+  color: white;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.white-strip-d {
+  border: 1px solid black;
+  border-radius: 3%;
+  width: 100%;
+  height: 60px;
+  background-color: #ffffff;
+  position: absolute;
+  margin-top: 180px;
+  z-index: 2;
+  color: white;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.sec1,
+.sec2,
+.sec3 {
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container section div {
+  transition: 0.5s;
+}
+.white-strip-a:hover {
+  transition: ease-in-out;
+  box-shadow: inset 5px 10px 30px black, 0px 5px 10px black;
+  color: #000;
+}
+.white-strip-b:hover {
+  transition: ease-in-out;
+  box-shadow: inset 5px 10px 30px black, 0px 5px 10px black;
+  color: #000;
+}
+
+.white-strip-c:hover {
+  transition: ease-in-out;
+  box-shadow: inset 5px 10px 30px black, 0px 5px 10px black;
+  color: #000;
+}
+.white-strip-d:hover {
+  transition: ease-in-out;
+  box-shadow: inset 5px 10px 30px black, 0px 5px 10px black;
+
+  color: #000;
+}
+.black-strip-1:hover {
+  transition: ease-in-out;
+  box-shadow: inset 5px 10px 30px rgb(255, 255, 255),
+    0px 5px 10px rgb(59, 57, 57);
+  color: #fff;
+}
+.black-strip-2:hover {
+  transition: ease-in-out;
+  box-shadow: inset 5px 10px 30px rgb(255, 255, 255),
+    0px 5px 10px rgb(59, 57, 57);
+  color: #fff;
+}
+span {
+  margin-right: 20px;
+}
