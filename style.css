@@ -97,7 +97,7 @@ body {
 .sec1,
 .sec2,
 .sec3 {
-  height: 240px;
+  height: 270px;
   display: flex;
   flex-direction: column;
 }
