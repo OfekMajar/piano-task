@@ -8,7 +8,7 @@ body {
   flex-direction: column;
   position: fixed;
 
-  height: 100%;
+  height: 750px;
 }
 .white-strip-a {
   border: 1px solid black;
@@ -97,7 +97,7 @@ body {
 .sec1,
 .sec2,
 .sec3 {
-  height: 270px;
+  height: 240px;
   display: flex;
   flex-direction: column;
 }
